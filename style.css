@@ -1,0 +1,557 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.header-section {
+    position: relative;
+    height: 100vh;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #555;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6600;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-warning {
+    background-color: #ff6600;
+    border: none;
+}
+
+
+
+/* service */
+
+.services-section {
+    /* background-color: #0b132b; */
+}
+
+.service-card {
+    background: none;
+    padding: 20px;
+}
+
+.service-icon {
+    margin-bottom: 15px;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cta-section {
+    background-color: #f8f9fa;
+}
+
+.btn-warning {
+    background-color: #ff6600;
+    border: none;
+}
+
+
+/* third section iamges */
+.hero-section {
+    background: url('./aiiii.webp') no-repeat center center/cover; /* Replace with your image path */
+    height: 624px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Overlay to darken the background image */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn-custom {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 10px 0 0;
+}
+
+.btn-outline-custom {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 29px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+}
+
+/* service section start */
+
+.services-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.services-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.service-box {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    height: 368px;
+    width: 368px;
+}
+
+.service-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.service-box img {
+    /* max-width: 80px; */
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+.service-box a {
+    text-decoration: none;
+    color: #00baff;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+    
+}
+
+@media (max-width: 768px) {
+    .service-box h3 {
+        font-size: 18px;
+    }
+
+    .service-box p {
+        font-size: 14px;
+    }
+}
+
+/* service button */
+.custom-btn {
+    background-color: #f06421; /* Orange color */
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: white;
+    color:  #f06421; /* Darker orange on hover */
+    border: 2px solid #f06421;
+}
+
+
+/* marketing agency service */
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fdd835;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.section-subtitle {
+    font-size: 1.25rem;
+    color: #00aeef;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.service-item h5 {
+    margin-bottom: 5px;
+}
+
+.service-item p {
+    margin-bottom: 0;
+}
+
+.icon-star {
+    font-size: 18px;
+}
+
+
+/* digital market online solution  */
+
+.background-image {
+    background: url('./bg-2.jpg') no-repeat center center/cover;
+    height: 750px;
+    position: sticky;
+    margin-top: 20px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+
+
+/* choos us section start */
+
+.why-choose-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.why-choose-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.why-choose-section p.subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #00baff;
+}
+
+.feature-box {
+    text-align: left;
+    background-color: white;
+    /* border: 1px solid #e0e0e0; */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.feature-box img {
+    max-width: 60px;
+    margin-right: 15px;
+}
+
+.feature-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .feature-box h3 {
+        font-size: 18px;
+    }
+
+    .feature-box p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+.cta-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-section h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #e55b00;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .cta-section h3 {
+        font-size: 24px;
+    }
+
+    .cta-btn {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+}
+
+/* faq */
+.faq-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.faq-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+.faq-p{
+color: #007bff;
+}
+.faq-section p {
+    text-align: center;
+    /* color: #007bff; */
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.faq-item button {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #333;
+}
+
+.faq-item button:hover {
+    background-color: #f1f1f1;
+}
+
+.faq-item button:focus {
+    box-shadow: none;
+} 
+
+ .faq-item .collapse {
+    padding: 15px;
+    color: black;
+}
+/* faq end */
+
+.accordion .btn-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.accordion .btn-link:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+
+.accordion .btn-link .fa {
+    float: right;
+    transition: transform 0.3s ease;
+}
+
+/* footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    border-top: 2px solid #e67e22;
+    box-shadow: 0 9px 23px;
+}
+
+.footer h5 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.footer p {
+    color: #333;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons {
+    margin-top: 20px;
+    
+}
+
+.footer .social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #555;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-bottom a {
+    color: #007bff;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
